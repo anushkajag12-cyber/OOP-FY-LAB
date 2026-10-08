@@ -7,7 +7,8 @@ class student
     string StudentName;
     string StudentDepartmentName;
     char Student_grade;
-    student(int RollNo,string StudentName,string StudentDe,char Student_grade)
+
+    student(int RollNo,string StudentName,string StudentDepartmentName,char Student_grade)
     {
         this->RollNo=RollNo;
         this->StudentName=StudentName;
