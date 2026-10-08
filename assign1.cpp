@@ -4,10 +4,10 @@ using namespace std;
 class books
 {
 public:
-   int bookname;
+   string bookname;
    int price;
    string authorname;
-   string bookid;
+   int bookid;
 
    void librarybooks()
    {
