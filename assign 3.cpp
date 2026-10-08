@@ -11,14 +11,14 @@ private:
 public:
     void input()
     {
-        cout << "Name of Employee:";
-        cin >> name;
-        cout << "ID:";
-        cin >> no;
-        cout << "Salary:";
+        cout << "Name of Employee: ";
+        cin >> Employeename;
+        cout << "ID: ";
+        cin >> ID;
+        cout << "Salary: ";
         cin >> salary;
-        cout << "Employeedepartmentname:";
-        cin >> dept;
+        cout << "Employee department name: ";
+        cin >> Employeedepartmentname;
         cout << "-----------------------" << endl
              << endl;
     }
@@ -26,10 +26,10 @@ public:
     void display()
     {
 
-        cout << "Name of Employee:" << name << endl;
-        cout << "ID:" << no << endl;
+        cout << "Name of Employee:" << Employeename << endl;
+        cout << "ID:" << ID << endl;
         cout << "Salary:" << salary << endl;
-        cout << "Departmentname:" << dept << endl;
+        cout << "Departmentname:" << Employeedepartmentname << endl;
         cout << "-------------------------" << endl;
     }
 };
