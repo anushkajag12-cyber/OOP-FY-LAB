@@ -10,10 +10,10 @@ public:
     // Default Constructor
     books()
     {
-        title = "Homosapiens";
-        author = "Yuval Noah Harari";
-        price = 390;
-        pages = 240;
+      book_title = "Homosapiens";
+      book_author = "Yuval Noah Harari";
+      price = 390;
+      pages = 240;
     }
     // Parameterized Constructor
     books(string t, string a, int p, int pg)
@@ -26,8 +26,8 @@ public:
     // Function to display book details
     void display()
     {
-        cout << "Book_Title : " << title << endl;
-        cout << "Book_Author : " << author << endl;
+        cout << "Book_Title : " << book_title << endl;
+        cout << "Book_Author : " << book_author << endl;
         cout << "Price : " << price << endl;
         cout << "Pages : " << pages << endl;
         cout << "-----------------------" << endl;
