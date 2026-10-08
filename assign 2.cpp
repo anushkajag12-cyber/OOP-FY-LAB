@@ -5,7 +5,7 @@ class student
  public:
         string name;
         string roll_no;
-        float perecentage;
+        float percentage;
 
  void display()
  {
