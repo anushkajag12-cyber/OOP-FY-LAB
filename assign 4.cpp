@@ -38,7 +38,7 @@ int main()
     // Object using Default Constructor
     books b1;
     // Object using Parameterized Constructor
-    books b2("Harry potter", "Pride and prejudice", 500, 300);
+    books b2("Harry potter", "J.K Rowling", 500, 300);
     cout << "Book 1 (Default Constructor):" << endl;
     b1.display();
     cout << "Book 2 (Parameterized Constructor):" << endl;
